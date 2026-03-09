@@ -1,6 +1,6 @@
 ---
 
-# Desafio-Telecom-X-Latam-Parte-2 (Predicción de Cancelación de Clientes – Machine Learning aplicado a Telecom)
+# Desafio-Telecom-X-Latam-Parte-2 (Predicción de Cancelación de Clientes – Machine Learning aplicado)
 Proyecto de **modelado predictivo y análisis explicativo de churn**, orientado a identificar clientes con alto riesgo de cancelación y transformar los resultados de machine learning en **estrategias concretas de retención**.
 
 ---
@@ -17,7 +17,7 @@ Cuando un cliente cancela el servicio (churn), la empresa enfrenta:
 
 En este contexto, **anticipar qué clientes podrían cancelar su servicio permite intervenir antes de que abandonen la empresa**.
 
-El objetivo de este proyecto fue:
+El objetivo de este proyecto es:
 
 * construir modelos predictivos de churn
 * identificar los factores que más influyen en la cancelación
@@ -39,7 +39,7 @@ El proyecto sigue un enfoque completo de **ciencia de datos aplicada**:
 
 ---
 
-# Arquitectura del Pipeline de Ciencia de Datos
+## Arquitectura del Pipeline de Ciencia de Datos
 
 El proyecto sigue un pipeline completo de **Machine Learning aplicado**:
 
@@ -59,7 +59,7 @@ Estrategias de retención
 
 ---
 
-# Modelos de Machine Learning Evaluados
+## Modelos de Machine Learning Evaluados
 
 Se entrenaron **7 algoritmos de clasificación**:
 
@@ -75,7 +75,7 @@ Se entrenaron **7 algoritmos de clasificación**:
 
 ---
 
-# Evaluación de Modelos
+## Evaluación de Modelos
 
 Se utilizaron múltiples métricas para comparar desempeño:
 
@@ -109,7 +109,9 @@ Se utilizaron múltiples métricas para comparar desempeño:
 
 ---
 
-# Curva de Aprendizaje del Modelo
+## Curva de Aprendizaje del Modelo
+
+![Curva de Aprendizaje XGBoost Entrenamiento vs Validación](/images/Curva%20de%20Aprendizaje%20XGBoost%20Entrenamiento%20vs%20Validación.png)
 
 El entrenamiento de XGBoost mostró que la mejor iteración se alcanza alrededor de:
 
@@ -123,7 +125,7 @@ Esto indica:
 
 ---
 
-# Explicabilidad del Modelo
+## Explicabilidad del Modelo
 
 Se utilizaron tres enfoques para interpretar los modelos:
 
@@ -156,7 +158,7 @@ Esto permite:
   
 ---
 
-# Impacto Económico Potencial
+## Impacto Económico Potencial
 
 Una reducción del churn tiene un impacto directo en los ingresos recurrentes de la empresa.
 
@@ -176,7 +178,7 @@ Esto demuestra que incluso mejoras moderadas en la retención pueden generar **i
 
 ---
 
-# Sistema de Predicción de Churn en Producción
+## Sistema de Predicción de Churn en Producción
 
 El modelo XGBoost desarrollado en este proyecto podría implementarse como un **sistema de alerta temprana de cancelación**.
 
@@ -244,18 +246,18 @@ El principal hallazgo estratégico es que:
 
 **el churn no depende únicamente del precio, sino del valor percibido del servicio durante los primeros meses de relación con el cliente.**
 
-Reducir la cancelación requiere intervenir temprano, fortalecer la experiencia del cliente y promover contratos de mayor duración.
+**Reducir la cancelación requiere intervenir temprano, fortalecer la experiencia del cliente y promover contratos de mayor duración.**
 
 ---
 
-# Posibles Mejoras Futuras
+## Posibles Mejoras Futuras
 
 El proyecto podría extenderse mediante:
 
 * **Ingeniería avanzada de variables**
-* modelos de **Deep Learning más complejos**
-* **modelos de supervivencia (Customer Lifetime Analysis)**
-* sistemas de **detección temprana de churn**
+* Modelos de **Deep Learning más complejos**
+* **Modelos de supervivencia (Customer Lifetime Analysis)**
+* Sistemas de **detección temprana de churn**
 * integración con **dashboards de monitoreo en tiempo real**
 
 ---
@@ -277,27 +279,33 @@ El proyecto podría extenderse mediante:
 
 ## Datos
 
-Los datos fueron obtenidos del tratamiento previo realizado en el [Desafio Desafío_Telecom_X_Latam](https://github.com/fsoaresg/Desafio_Telecom_X_Latam)
+Los datos fueron obtenidos del tratamiento previo realizado en el ![Desafío_Telecom_X_Latam](https://github.com/fsoaresg/Desafio_Telecom_X_Latam)
 
-Fuente:[CSV](https://raw.githubusercontent.com/fsoaresg/Desafio-Alura-Store-Latam/main/base-de-datos-alura-store-latam/tienda_1%20.csv)
+Fuente:![CSV](https://raw.githubusercontent.com/fsoaresg/Desafio-Telecom-X-Latam-Parte-2/refs/heads/main/Datos%20Telecom%20X%20Latam%20Parte%202/datos_procesados.csv)
 
 ---
 
 ## Visualizaciones
 
-![Gráfico del Análisis Estadístico de las Variables Numéricas](/images/Gr%C3%A1fico%20del%20An%C3%A1lisis%20Estad%C3%ADstico%20de%20las%20Variables%20Num%C3%A9ricas.png)
+![Matriz de Correlación (Variables Numéricas)](/images/Matriz%20de%20Correlación%20(Variables%20Numéricas).png)
 
-![Distribución de la Evasión (Churn) de los Clientes](images/Distribuci%C3%B3n%20de%20la%20Evasi%C3%B3n%20(Churn)%20de%20los%20Clientes.png)
+![Distribución de Variables Numéricas por Churn](images/Distribución%20de%20Variables%20Numéricas%20por%20Churn.png)
 
-![Recuento de la evasión por variables categóricas](images/Recuento%20de%20la%20evasi%C3%B3n%20por%20variables%20categ%C3%B3ricas.png)
+![Optimización de Hiperparámetros KNN](images/Optimización%20de%20Hiperparámetros%20KNN.png)
 
-![Tasa de Deserción por Perfil y Género](images/Tasa%20de%20Deserci%C3%B3n%20por%20Perfil%20y%20G%C3%A9nero.png)
+![Curvas ROC por Modelo (Evaluación en Test)](images/Curvas%20ROC%20por%20Modelo%20(Evaluación%20en%20Test).png)
 
-![Recuento de la evasión por variables numéricas](images/Recuento%20de%20la%20evasi%C3%B3n%20por%20variables%20num%C3%A9ricas.png)
+![Curvas Precision-Recall por Modelo (Evaluación en Test)](images/Curvas%20Precision-Recall%20por%20Modelo%20(Evaluación%20en%20Test).png)
 
-![Comparativa de Deserción: Ciclo de Vida por Contrato](images/Comparativa%20de%20Deserci%C3%B3n%20Ciclo%20de%20Vida%20por%20Contrato.png)
+![Comparativa de Matrices de Confusión](images/Comparativa%20de%20Matrices%20de%20Confusión.png)
 
-![Análisis de correlación entre variables](images/An%C3%A1lisis%20de%20correlaci%C3%B3n%20entre%20variables.png)
+![Consistencia de los Factores de Riesgo entre Modelos Líderes](Consistencia%20de%20los%20Factores%20de%20Riesgo%20entre%20Modelos%20Líderes.png)
+
+![Impacto de Variables en Churn (Odds Ratio - Regresión Logística)](images/Impacto%20de%20Variables%20en%20Churn%20(Odds%20Ratio%20-%20Regresión%20Logística).png)
+
+![Importancia Simple de Variables (SHAP - Regresión Logística)](images/Importancia%20Simple%20de%20Variables%20(SHAP%20-%20Regresión%20Logística).png)
+
+![Impacto Global de las variables en la predicción de abandono (SHAP)](images/Impacto%20Global%20de%20las%20variables%20en%20la%20predicción%20de%20abandono%20(SHAP).png)
 
 [![Explorar Visualizaciones Interactivas](https://img.shields.io/badge/Explorar-Visualizaciones%20Interactivas-2563eb?style=for-the-badge&logo=plotly&logoColor=white)](https://mellifluous-boba-bed465.netlify.app/)
 
@@ -360,7 +368,9 @@ Fuente:[CSV](https://raw.githubusercontent.com/fsoaresg/Desafio-Alura-Store-Lata
 ├── Telecom X_Latam.ipynb # Cuaderno de Colab con análisis completo
 
 ├── README.md
+
 ├── 📂 Datos-Telecom-X-Latam-Parte-2/
+
 ├── 📂 images/
 
 ├── 📂 interactive/
