@@ -279,9 +279,9 @@ El proyecto podría extenderse mediante:
 
 ## Datos
 
-Los datos fueron obtenidos del tratamiento previo realizado en el ![Desafío_Telecom_X_Latam](https://github.com/fsoaresg/Desafio_Telecom_X_Latam)
+Los datos fueron obtenidos del tratamiento previo realizado en el [Desafío_Telecom_X_Latam](https://github.com/fsoaresg/Desafio_Telecom_X_Latam)
 
-Fuente:![CSV](https://raw.githubusercontent.com/fsoaresg/Desafio-Telecom-X-Latam-Parte-2/refs/heads/main/Datos%20Telecom%20X%20Latam%20Parte%202/datos_procesados.csv)
+Fuente:[CSV](https://raw.githubusercontent.com/fsoaresg/Desafio-Telecom-X-Latam-Parte-2/refs/heads/main/Datos%20Telecom%20X%20Latam%20Parte%202/datos_procesados.csv)
 
 ---
 
@@ -299,7 +299,7 @@ Fuente:![CSV](https://raw.githubusercontent.com/fsoaresg/Desafio-Telecom-X-Latam
 
 ![Comparativa de Matrices de Confusión](images/Comparativa%20de%20Matrices%20de%20Confusión.png)
 
-![Consistencia de los Factores de Riesgo entre Modelos Líderes](Consistencia%20de%20los%20Factores%20de%20Riesgo%20entre%20Modelos%20Líderes.png)
+![Consistencia de los Factores de Riesgo entre Modelos Líderes](images/Consistencia%20de%20los%20Factores%20de%20Riesgo%20entre%20Modelos%20Líderes.png)
 
 ![Impacto de Variables en Churn (Odds Ratio - Regresión Logística)](images/Impacto%20de%20Variables%20en%20Churn%20(Odds%20Ratio%20-%20Regresión%20Logística).png)
 
@@ -353,7 +353,7 @@ Fuente:![CSV](https://raw.githubusercontent.com/fsoaresg/Desafio-Telecom-X-Latam
 
 ## Cómo usar este proyecto
 
-1. Abrir el cuaderno en **[Google Colab](https://colab.research.google.com/drive/1GmVnMzoH1Scf52kqgmN2oSKKraVXPLgX?usp=sharing)**.
+1. Abrir el cuaderno en **[Google Colab](https://colab.research.google.com/github/fsoaresg/Desafio-Telecom-X-Latam-Parte-2/blob/main/Telecom_X_Parte_2_Latam.ipynb)**.
 2. Ejecutar las celdas paso a paso para:
     - Importar los datos desde la API.
     - Realizar limpieza y transformación.
