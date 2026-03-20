@@ -306,7 +306,7 @@ Fuente:[CSV](https://raw.githubusercontent.com/fsoaresg/Desafio-Telecom-X-Latam-
 
 ![Impacto Global de las variables en la predicción de abandono (SHAP)](images/Impacto%20Global%20de%20las%20variables%20en%20la%20predicción%20de%20abandono%20(SHAP).png)
 
-[![Explorar Visualizaciones Interactivas](https://img.shields.io/badge/Explorar-Visualizaciones%20Interactivas-2563eb?style=for-the-badge&logo=plotly&logoColor=white)](https://mellifluous-boba-bed465.netlify.app/)
+[![Explorar Visualizaciones Interactivas](https://img.shields.io/badge/Explorar-Visualizaciones%20Interactivas-2563eb?style=for-the-badge&logo=plotly&logoColor=white)](https://tranquil-longma-fc6a1f.netlify.app/)
 
 **Vista Previa:**
 ![Captura de visualizaciones interactivas](images/Visualizaciones%20interactivas.png)
