@@ -267,7 +267,6 @@ El proyecto podría extenderse mediante:
 - **Python 3**
 - **Pandas**: manipulación y análisis de datos.
 - **NumPy**: operaciones numéricas.
-- **Requests**: consumo de APIs y descarga de datos. 
 - **Matplotlib**: visualización de datos estática.
 - **Plotly**: visualización de datos interactiva y dinámica.
 - **Scikit-learn** – modelos de machine learning
@@ -372,8 +371,6 @@ Fuente:[CSV](https://raw.githubusercontent.com/fsoaresg/Desafio-Telecom-X-Latam-
 ├── 📂 Datos-Telecom-X-Latam-Parte-2/
 
 ├── 📂 images/
-
-├── 📂 interactive/
 
 ---
 
